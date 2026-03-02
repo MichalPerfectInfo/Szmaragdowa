@@ -4,7 +4,7 @@ import { Menu, X, Phone } from 'lucide-react';
 const navLinks = [
   { name: 'Lokalizacja', href: '#lokalizacja' },
   { name: 'O inwestycji', href: '#o-inwestycji' },
-  { name: 'Mieszkania', href: '#mieszkania' },
+  { name: 'Cennik', href: '#mieszkania' },
   { name: 'Nawigator', href: '#nawigator' },
   { name: 'O inwestorze', href: '#o-inwestorze' },
   { name: 'Kontakt', href: '#kontakt' },

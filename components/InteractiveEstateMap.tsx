@@ -185,7 +185,7 @@ export const InteractiveEstateMap: React.FC = () => {
     <>
     <div className="relative w-full rounded-2xl overflow-hidden shadow-2xl bg-gray-900 group select-none" ref={containerRef}>
       
-      <div className="absolute bottom-4 right-4 z-30 flex flex-col gap-2 items-end">
+      {/* <div className="absolute bottom-4 right-4 z-30 flex flex-col gap-2 items-end">
         <button 
           onClick={() => {
             setIsDrawingMode(!isDrawingMode);
@@ -196,7 +196,7 @@ export const InteractiveEstateMap: React.FC = () => {
           {isDrawingMode ? <X size={16} /> : <PenTool size={16} />}
           {isDrawingMode ? 'Anuluj' : 'Rysuj nowy kształt'}
         </button>
-      </div>
+      </div> */}
 
       {isDrawingMode && (
         <div 

@@ -63,7 +63,7 @@ export const Footer: React.FC = () => {
 
         <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center text-xs text-gray-500">
           <p>&copy; {new Date().getFullYear()} DS DEV. Wszelkie prawa zastrzeżone.</p>
-          <p className="mt-2 md:mt-0">Realizacja: <a href="#" className="hover:text-white transition-colors">Agencja Interaktywna</a></p>
+          <p className="mt-2 md:mt-0">Realizacja: <a href="https://www.agentzen.pl" className="hover:text-white transition-colors">Agent ZEN</a></p>
         </div>
       </div>
     </footer>

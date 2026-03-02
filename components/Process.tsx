@@ -1,13 +1,14 @@
 import React from 'react';
 import { Download, PhoneCall, Calendar, FileText, Briefcase, Key, Home } from 'lucide-react';
 
+
 export const AdditionalInfo: React.FC = () => (
   <section className="py-20 bg-gray-50 border-t border-gray-200 border-b">
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
       <h2 className="text-2xl font-bold text-gray-900 mb-6">Informacje dodatkowe</h2>
       <a 
-        href="#" 
-        onClick={(e) => e.preventDefault()} 
+        href="data\prospekt.pdf" 
+        download
         className="bg-white text-gray-900 border border-gray-300 px-8 py-3 rounded-full font-semibold shadow-sm hover:shadow-md hover:border-primary-500 transition-all inline-flex items-center justify-center gap-2 mx-auto cursor-pointer"
       >
         <Download size={18} className="text-primary-600" /> Pobierz prospekt informacyjny

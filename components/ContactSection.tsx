@@ -1,7 +1,8 @@
 import React, { useState, FormEvent } from 'react';
 import { Mail, Phone, MapPin, Loader2, CheckCircle, AlertCircle } from 'lucide-react';
 import emailjs from "@emailjs/browser";
-import imgbg from "../assets/1.jpg"
+import imgbg from "../assets/1.jpg";
+import { Polityka }  from "../data/polityka";
 
 export const AboutInvestor: React.FC = () => (
   <section id="o-inwestorze" className="py-20 bg-gray-50 scroll-mt-20">
@@ -34,7 +35,7 @@ export const AboutInvestor: React.FC = () => (
   <div className="absolute inset-0 flex flex-col items-center justify-center text-center px-4">
     <h3 className="text-2xl sm:text-3xl font-bold text-white mb-4">Poznaj nasze inne inwestycje</h3>
     <a
-      href="#"
+      href="https://brylantowa-nieruchomosci.pl/"
       className="bg-emerald-500 hover:bg-emerald-600 text-white font-semibold px-6 py-3 rounded-lg text-lg transition-colors"
     >
       Zobacz więcej
@@ -47,6 +48,7 @@ export const AboutInvestor: React.FC = () => (
 
 export const ContactSection: React.FC = () => {
   const [formStatus, setFormStatus] = useState<'idle' | 'submitting' | 'success' | 'error'>('idle');
+  const [isModalOpen, setIsModalOpen] = useState(false);
 
   const handleScroll = (e: React.MouseEvent<HTMLAnchorElement>, id: string) => {
     e.preventDefault();
@@ -204,7 +206,7 @@ const handleSubmit = async (event: FormEvent<HTMLFormElement>) => {
                 <div className="flex items-start gap-2">
                   <input type="checkbox" id="privacy" required className="mt-1 w-4 h-4 text-primary-600 border-gray-300 rounded focus:ring-primary-500" />
                   <label htmlFor="privacy" className="text-xs text-gray-500 cursor-pointer">
-                    Wyrażam zgodę na przetwarzanie moich danych osobowych zgodnie z <a href="#" className="underline">polityką prywatności</a>.
+                    Wyrażam zgodę na przetwarzanie moich danych osobowych zgodnie z <button type="button" onClick={() => setIsModalOpen(true)} className="underline cursor-pointer">polityką prywatności</button>.
                   </label>
                 </div>
 
@@ -233,6 +235,39 @@ const handleSubmit = async (event: FormEvent<HTMLFormElement>) => {
           </div>
         </div>
       </div>
+
+      {/* Modal Polityki Prywatności */}
+      {isModalOpen && (
+        <div 
+          className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50 px-4 py-6"
+          onClick={() => setIsModalOpen(false)}
+        >
+          {/* Główne okno modala z maksymalną wysokością */}
+          <div 
+            className="bg-white p-6 rounded-lg shadow-lg max-w-2xl w-full max-h-full flex flex-col"
+            onClick={(e) => e.stopPropagation()}
+          >
+            
+            {/* Kontener z przewijanym tekstem (scroll) */}
+            <div className="overflow-y-auto pr-2 custom-scrollbar">
+              {/* TUTAJ WSTAWIAMY NASZ NOWY KOMPONENT */}
+              <Polityka />
+            </div>
+
+            {/* Przycisk Zamknij - zawsze na dole */}
+            <div className="flex justify-end mt-6 pt-4 border-t border-gray-100 shrink-0">
+              <button
+                type="button"
+                onClick={() => setIsModalOpen(false)}
+                className="px-6 py-2 bg-gray-200 text-gray-800 rounded-md hover:bg-gray-300 transition-colors font-bold"
+              >
+                Zamknij
+              </button>
+            </div>
+            
+          </div>
+        </div>
+      )}
     </section>
   );
 };
