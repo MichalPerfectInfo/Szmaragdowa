@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Menu, X, Phone } from 'lucide-react';
 
 const navLinks = [
+  { name: 'Inne inwestycje', href: "#inne-inwestycje"},
   { name: 'Lokalizacja', href: '#lokalizacja' },
   { name: 'O inwestycji', href: '#o-inwestycji' },
   { name: 'Cennik', href: '#mieszkania' },
