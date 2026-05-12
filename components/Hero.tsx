@@ -1,6 +1,6 @@
 import React from 'react';
 import { Home, Wifi, ShieldCheck, Maximize, ArrowRight, Award } from 'lucide-react';
-import imgbg from "../assets/1.jpg";
+import zdj from "../assets/1.jpg";
 
 export const Hero: React.FC = () => {
   const handleScroll = (e: React.MouseEvent<HTMLAnchorElement>, id: string) => {
@@ -49,7 +49,7 @@ export const Hero: React.FC = () => {
         {/* Right Slider / Image */}
         <div className="relative rounded-2xl overflow-hidden shadow-2xl h-[400px] md:h-[500px]">
           <img 
-            src="https://lh3.googleusercontent.com/pw/AP1GczNFEQUX8YsFbxBBf72ASpKLvou2Y88B1tcGmWiMmiSNucAEpBuh0Z5uIfQ-RSruZCMD9XPCoiNQ7aLi2WC5hD0iOLAAVf-FSRTNEKk1JJohw-aOTXkVpnNR9Qu5L3VzJYwBgjrFhUss6er9NaVEprkp=w1920-h1080-s-no-gm" 
+            src="../assets/1.jpg"
             alt="Wizualizacja osiedla" 
             className="w-full h-full object-cover"
           />
@@ -67,7 +67,7 @@ export const Hero: React.FC = () => {
           {/* Obraz w tle - aspect-ratio zamiast fixed height żeby nie ucinało */}
           <div className="relative w-full aspect-[4/3] sm:aspect-[16/7] lg:aspect-[21/7]">
             <img
-              src={imgbg}
+              src={zdj}
               alt="Nasze inwestycje"
               className="absolute inset-0 w-full h-full object-cover object-center transition-transform duration-700 group-hover:scale-105"
             />

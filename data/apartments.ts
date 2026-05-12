@@ -13,8 +13,8 @@ export const APARTMENTS_DATA: Apartment[] = [
     ],
     imageUrls: [
       'https://lh3.googleusercontent.com/pw/AP1GczNzRiOB3TtEDaSP3vzOmSI9azvaqZWwmCiQSNJi6Ufb0aOWibydFT_7SqpLnbdQBRiAKTyJM_Ek5o0pseOsOzGyPtmhc5coB3l2hKxLo69EpwlPVG8rwcBlW92ya5niynlq7Oh29QM2Bz_bdYR7NaFJ=w672-h951-s-no-gm?authuser=0',
-      'https://lh3.googleusercontent.com/pw/AP1GczMRZoGNr42f2HlpCbTGN2LoNBQd7mIiYXWSY11JPfvDRsGUr1Ywyz2sFFKaljfWzEfCqTrGgtKa76DyWDJ-lycvx5EA7_xz0sLGAENy3V83_xRtsglWso-MX165hT9q8MObd1-izBrHj2JzOD8DUeKB=w1264-h711-s-no-gm?authuser=1',
-      "https://lh3.googleusercontent.com/pw/AP1GczOAW4ghqAfT1GNcPl0z1cGKLVdv4ACeeyETuZ6nqTvxYbPToBwGPX2JqaAHQXvzBo7Fu-Nlkdvm3RLw6zo2qgf3i6jLy-t5zg02NF6MIbPpb6JbZXWc8yaseJD_sIGu8y9ccpRl_wzMmArgVe-XURiy=w1264-h711-s-no-gm?authuser=1"
+      "../assets/pietro.jpg",
+      "../assets/poddasze.jpg"
     ]
   },
   { 
@@ -29,7 +29,7 @@ export const APARTMENTS_DATA: Apartment[] = [
     ],
     imageUrls: [
       'https://lh3.googleusercontent.com/pw/AP1GczMVmtjwUa3py63bJQ7vjWocSyHEuznC9Mb_glrZrEoXecSTaKRJyZIrJNZ1S3Bp5gxeo19FKEHktgwHBB6f4G53lv7AOf1UUierOucQHsc7HDRvkCnuVNbFwpuxXETuETGGIRAq9FW7XzOTx6DV7xXa=w672-h951-s-no-gm?authuser=0',
-      "https://lh3.googleusercontent.com/pw/AP1GczPeijU-ctRdnqB78ec68QMbD8PoZGdgvH1RJZD5vT-3seCFyqSgclnxsvITWSKoZ837aoFiq4p57XcZ3JVjza9ct3nGw1f20AQLhdnfLro73Oag9MjreZdywl6Xn_isAjbN3eSvhopDaznMpdyObhKC=w1264-h711-s-no-gm?authuser=1"
+      "../assets/parter.jpg"
     ]
   },
   {
@@ -44,8 +44,8 @@ export const APARTMENTS_DATA: Apartment[] = [
     ],
     imageUrls:[
       "https://lh3.googleusercontent.com/pw/AP1GczMaxEJAmZdz4jl8ArAQvM4Eyy8JGA1V3rydPAjdKN57MsrxaqzLTcUOfTYkazp9vR8zJHQ7fa0BuMcqLriQqZt51Pjr-1g8DePhF6qHT20RrOFIAlOqat9RD3_bidf_op_I5TWXVEiKlXbaaIf4zkWA=w672-h951-s-no-gm?authuser=0",
-      'https://lh3.googleusercontent.com/pw/AP1GczMRZoGNr42f2HlpCbTGN2LoNBQd7mIiYXWSY11JPfvDRsGUr1Ywyz2sFFKaljfWzEfCqTrGgtKa76DyWDJ-lycvx5EA7_xz0sLGAENy3V83_xRtsglWso-MX165hT9q8MObd1-izBrHj2JzOD8DUeKB=w1264-h711-s-no-gm?authuser=1',
-      "https://lh3.googleusercontent.com/pw/AP1GczOAW4ghqAfT1GNcPl0z1cGKLVdv4ACeeyETuZ6nqTvxYbPToBwGPX2JqaAHQXvzBo7Fu-Nlkdvm3RLw6zo2qgf3i6jLy-t5zg02NF6MIbPpb6JbZXWc8yaseJD_sIGu8y9ccpRl_wzMmArgVe-XURiy=w1264-h711-s-no-gm?authuser=1"
+      "../assets/pietro.jpg",
+      "../assets/poddasze.jpg"
     ]
   },
   {
@@ -60,7 +60,7 @@ export const APARTMENTS_DATA: Apartment[] = [
     ],
     imageUrls:[
       "https://lh3.googleusercontent.com/pw/AP1GczM3OQ4iF37ixD5Lo0h_t9wxkoClmEfS_ceT8LXyRpu84GEtI1RkTtgCnr_T_X6ug9AainrwE8FG0JQpkoqPtyeX40vpsOvvYXNYounuUFag-uLO3oPMB6yXqWzYG4ANusD1t6uukOZ4QfmWoSR2tNaS=w672-h951-s-no-gm?authuser=0",
-      "https://lh3.googleusercontent.com/pw/AP1GczPeijU-ctRdnqB78ec68QMbD8PoZGdgvH1RJZD5vT-3seCFyqSgclnxsvITWSKoZ837aoFiq4p57XcZ3JVjza9ct3nGw1f20AQLhdnfLro73Oag9MjreZdywl6Xn_isAjbN3eSvhopDaznMpdyObhKC=w1264-h711-s-no-gm?authuser=1"
+      "../assets/parter.jpg"
     ]
   },
   {
@@ -75,8 +75,8 @@ export const APARTMENTS_DATA: Apartment[] = [
     ],
     imageUrls:[
       "https://lh3.googleusercontent.com/pw/AP1GczMmpkeskHBFkfGveKgQLScxAdEM5x8vsWCojbYK0HGJmBbfpHIPah9R-vhNIGHZ1mwpvUz-oxS6uU_-oE_QYuk0g50JfvARV1FASBuuVd0EJclOcn1FQu4IZ83ccY19P01X8ekK0c3N1VE9sAquciiw=w672-h951-s-no-gm?authuser=0",
-      'https://lh3.googleusercontent.com/pw/AP1GczMRZoGNr42f2HlpCbTGN2LoNBQd7mIiYXWSY11JPfvDRsGUr1Ywyz2sFFKaljfWzEfCqTrGgtKa76DyWDJ-lycvx5EA7_xz0sLGAENy3V83_xRtsglWso-MX165hT9q8MObd1-izBrHj2JzOD8DUeKB=w1264-h711-s-no-gm?authuser=1',
-      "https://lh3.googleusercontent.com/pw/AP1GczOAW4ghqAfT1GNcPl0z1cGKLVdv4ACeeyETuZ6nqTvxYbPToBwGPX2JqaAHQXvzBo7Fu-Nlkdvm3RLw6zo2qgf3i6jLy-t5zg02NF6MIbPpb6JbZXWc8yaseJD_sIGu8y9ccpRl_wzMmArgVe-XURiy=w1264-h711-s-no-gm?authuser=1"
+      "../assets/pietro.jpg",
+      "../assets/poddasze.jpg"
     
     ]
   },
@@ -92,7 +92,7 @@ export const APARTMENTS_DATA: Apartment[] = [
     ],
     imageUrls:[
       "https://lh3.googleusercontent.com/pw/AP1GczNRBMnItqcJnbfC_Yly8BlTSyJpchKT7vg2Xf3IQM-LgXkcqAOgtqKLNcs5-yFIG7msa4MN6P9uquZwf5ReiWsa947nxW7oZjo7TaqV0_TL-BW21bSefkUIO0wo44jsnPk6uBgCYNPde9fDNz7x8ny7=w672-h951-s-no-gm?authuser=0",
-      "https://lh3.googleusercontent.com/pw/AP1GczPeijU-ctRdnqB78ec68QMbD8PoZGdgvH1RJZD5vT-3seCFyqSgclnxsvITWSKoZ837aoFiq4p57XcZ3JVjza9ct3nGw1f20AQLhdnfLro73Oag9MjreZdywl6Xn_isAjbN3eSvhopDaznMpdyObhKC=w1264-h711-s-no-gm?authuser=1"
+      "../assets/parter.jpg"
     ]
   },
   {
@@ -107,8 +107,8 @@ export const APARTMENTS_DATA: Apartment[] = [
     ],
     imageUrls: [
       "https://lh3.googleusercontent.com/pw/AP1GczMU97l7YQnZECG6obKtwaGrYqzwkHLAVP52soeXuB4Z3R9qEl5awl1gaEXtJECfq3VvUffNbLJzSzpVnOoNhe0qoMKcE0DcyjkoSRrxoxPvf6wK94OPgNbgiikkFLYQFVJJSzBIGrwR5p16G04VhHIx=w672-h951-s-no-gm?authuser=0",
-      'https://lh3.googleusercontent.com/pw/AP1GczMRZoGNr42f2HlpCbTGN2LoNBQd7mIiYXWSY11JPfvDRsGUr1Ywyz2sFFKaljfWzEfCqTrGgtKa76DyWDJ-lycvx5EA7_xz0sLGAENy3V83_xRtsglWso-MX165hT9q8MObd1-izBrHj2JzOD8DUeKB=w1264-h711-s-no-gm?authuser=1',
-      "https://lh3.googleusercontent.com/pw/AP1GczOAW4ghqAfT1GNcPl0z1cGKLVdv4ACeeyETuZ6nqTvxYbPToBwGPX2JqaAHQXvzBo7Fu-Nlkdvm3RLw6zo2qgf3i6jLy-t5zg02NF6MIbPpb6JbZXWc8yaseJD_sIGu8y9ccpRl_wzMmArgVe-XURiy=w1264-h711-s-no-gm?authuser=1"
+      "../assets/pietro.jpg",
+      "../assets/poddasze.jpg"
     ]
   },
   {
@@ -123,7 +123,7 @@ export const APARTMENTS_DATA: Apartment[] = [
     ],
     imageUrls: [
       "https://lh3.googleusercontent.com/pw/AP1GczMhfG7mbiYDw3PRQAMN11-Dz9y_jWTSnpBohFvY42AT7sE0sLSi4Fq3I_pm0Yu0OzNz9zKacU6X-Tdt10HnlN7F3Ajargtkv81zPxB2lwMZJwqwRiGKd3Md7Nsd1N1dE156MXfsuvcJkCUgvxCKQ0Iv=w672-h951-s-no-gm?authuser=0",
-      "https://lh3.googleusercontent.com/pw/AP1GczPeijU-ctRdnqB78ec68QMbD8PoZGdgvH1RJZD5vT-3seCFyqSgclnxsvITWSKoZ837aoFiq4p57XcZ3JVjza9ct3nGw1f20AQLhdnfLro73Oag9MjreZdywl6Xn_isAjbN3eSvhopDaznMpdyObhKC=w1264-h711-s-no-gm?authuser=1"
+      "../assets/parter.jpg"
     ]
   },
   {
@@ -138,8 +138,8 @@ export const APARTMENTS_DATA: Apartment[] = [
     ],
     imageUrls: [
       "https://lh3.googleusercontent.com/pw/AP1GczOQOzLEAb_iwybYbZ_zsIv0kg0boqhg7234RyRFTdWX9gCLoxGlFQ0JeP_HrA14VoCXXDhn3wPwQXyPCm6M6EgSPZ8qWBbZDfNl_T3wvpQIS6iYQlwmkHEfywV6VbiDDSGVs6WA9S0judu54oSpqnbh=w672-h951-s-no-gm?authuser=0",
-      'https://lh3.googleusercontent.com/pw/AP1GczMRZoGNr42f2HlpCbTGN2LoNBQd7mIiYXWSY11JPfvDRsGUr1Ywyz2sFFKaljfWzEfCqTrGgtKa76DyWDJ-lycvx5EA7_xz0sLGAENy3V83_xRtsglWso-MX165hT9q8MObd1-izBrHj2JzOD8DUeKB=w1264-h711-s-no-gm?authuser=1',
-      "https://lh3.googleusercontent.com/pw/AP1GczOAW4ghqAfT1GNcPl0z1cGKLVdv4ACeeyETuZ6nqTvxYbPToBwGPX2JqaAHQXvzBo7Fu-Nlkdvm3RLw6zo2qgf3i6jLy-t5zg02NF6MIbPpb6JbZXWc8yaseJD_sIGu8y9ccpRl_wzMmArgVe-XURiy=w1264-h711-s-no-gm?authuser=1"
+      "../assets/pietro.jpg",
+      "../assets/poddasze.jpg"
     ]
   },
   {
@@ -154,7 +154,7 @@ export const APARTMENTS_DATA: Apartment[] = [
     ],
     imageUrls: [
       "https://lh3.googleusercontent.com/pw/AP1GczNg6Sdnn08APhBEXMIdWOcWKb7vDNH4_52ENXaev8gYqQL8isO_m5WhIpll3UIteyZHD_5g3bh9Wzv1wCdqzfq-8UHCdOcKMjP0QMvME861RkGdw4cPywUK2zJYLsIADwwhrrQU1Jcu8jp61_CbscgC=w672-h951-s-no-gm?authuser=0",
-      "https://lh3.googleusercontent.com/pw/AP1GczPeijU-ctRdnqB78ec68QMbD8PoZGdgvH1RJZD5vT-3seCFyqSgclnxsvITWSKoZ837aoFiq4p57XcZ3JVjza9ct3nGw1f20AQLhdnfLro73Oag9MjreZdywl6Xn_isAjbN3eSvhopDaznMpdyObhKC=w1264-h711-s-no-gm?authuser=1"
+      "../assets/parter.jpg"
     ]
   },
   {
@@ -169,8 +169,8 @@ export const APARTMENTS_DATA: Apartment[] = [
     ],
     imageUrls: [
       "https://lh3.googleusercontent.com/pw/AP1GczMzKcO5V68GvVWDicG_XiwDUpbs4H37_AAk3vCVWskH898uxw10gkM2GoWdGPfeqT06ncHGH3RXRhsvgqWwCzhGvpfxypxSrA6esNI-PolrJ5Tb0WCE9U5xVuIHzz0FWLmzmmQOecmdC4Mk8SA_aZ3H=w672-h951-s-no-gm?authuser=0",
-      'https://lh3.googleusercontent.com/pw/AP1GczMRZoGNr42f2HlpCbTGN2LoNBQd7mIiYXWSY11JPfvDRsGUr1Ywyz2sFFKaljfWzEfCqTrGgtKa76DyWDJ-lycvx5EA7_xz0sLGAENy3V83_xRtsglWso-MX165hT9q8MObd1-izBrHj2JzOD8DUeKB=w1264-h711-s-no-gm?authuser=1',
-      "https://lh3.googleusercontent.com/pw/AP1GczOAW4ghqAfT1GNcPl0z1cGKLVdv4ACeeyETuZ6nqTvxYbPToBwGPX2JqaAHQXvzBo7Fu-Nlkdvm3RLw6zo2qgf3i6jLy-t5zg02NF6MIbPpb6JbZXWc8yaseJD_sIGu8y9ccpRl_wzMmArgVe-XURiy=w1264-h711-s-no-gm?authuser=1"
+      "../assets/pietro.jpg",
+      "../assets/poddasze.jpg"
     ]
   },
   {
@@ -185,7 +185,7 @@ export const APARTMENTS_DATA: Apartment[] = [
     ],
     imageUrls: [
       "https://lh3.googleusercontent.com/pw/AP1GczNp7ujAzGEb776awYRePGZEatsutMown8LrQSD4_rwo_0Y0edKibyhumNHyheybaxGhsLc77jPR9tdzf4j97kBGdGo6kUuasWCEp0tAJ378HRgaUdFm73aYYUmrbj2ydSYBYdiCu5lbS8fFCEzzcOeZ=w672-h951-s-no-gm?authuser=0",
-      "https://lh3.googleusercontent.com/pw/AP1GczPeijU-ctRdnqB78ec68QMbD8PoZGdgvH1RJZD5vT-3seCFyqSgclnxsvITWSKoZ837aoFiq4p57XcZ3JVjza9ct3nGw1f20AQLhdnfLro73Oag9MjreZdywl6Xn_isAjbN3eSvhopDaznMpdyObhKC=w1264-h711-s-no-gm?authuser=1"
+      "../assets/parter.jpg"
     ]
   },
   {
@@ -200,8 +200,8 @@ export const APARTMENTS_DATA: Apartment[] = [
     ],
     imageUrls: [
       "https://lh3.googleusercontent.com/pw/AP1GczNwwuOGCRqTo6tyr7aQRPDZJ4o4AiL8lOYVMxFcJM2FDkYyTlyivQIMukcrIuyIvptXwL0XfcxWllr-b83s6_VmfsEpRyWebJ4dsgqSMubB6i5iU5uXXwzAyKSoAE90dcnZ3PA1Ozkq98DIssxmT198=w672-h951-s-no-gm?authuser=0",
-      'https://lh3.googleusercontent.com/pw/AP1GczMRZoGNr42f2HlpCbTGN2LoNBQd7mIiYXWSY11JPfvDRsGUr1Ywyz2sFFKaljfWzEfCqTrGgtKa76DyWDJ-lycvx5EA7_xz0sLGAENy3V83_xRtsglWso-MX165hT9q8MObd1-izBrHj2JzOD8DUeKB=w1264-h711-s-no-gm?authuser=1',
-      "https://lh3.googleusercontent.com/pw/AP1GczOAW4ghqAfT1GNcPl0z1cGKLVdv4ACeeyETuZ6nqTvxYbPToBwGPX2JqaAHQXvzBo7Fu-Nlkdvm3RLw6zo2qgf3i6jLy-t5zg02NF6MIbPpb6JbZXWc8yaseJD_sIGu8y9ccpRl_wzMmArgVe-XURiy=w1264-h711-s-no-gm?authuser=1"
+      "../assets/pietro.jpg",
+      "../assets/poddasze.jpg"
     ]
   },
   {
@@ -216,7 +216,7 @@ export const APARTMENTS_DATA: Apartment[] = [
     ],
     imageUrls: [
       "https://lh3.googleusercontent.com/pw/AP1GczNLTr83NZlcuxfz2YY5BCFtIbwamWcWYGdseWgcVg3ybcXyaAcPNPvJK2bzZHCWVPoJp0gbZROfBXTYG3oi2pb-k49qaXYf3v4ZwW7FxBYcIXQ_fIeBGkWXMjRqk3JfrqgVtCRAJlUM75SN8tLXUEYM=w672-h951-s-no-gm?authuser=0",
-      "https://lh3.googleusercontent.com/pw/AP1GczPeijU-ctRdnqB78ec68QMbD8PoZGdgvH1RJZD5vT-3seCFyqSgclnxsvITWSKoZ837aoFiq4p57XcZ3JVjza9ct3nGw1f20AQLhdnfLro73Oag9MjreZdywl6Xn_isAjbN3eSvhopDaznMpdyObhKC=w1264-h711-s-no-gm?authuser=1"
+      "../assets/parter.jpg"
     ]
   },
   {
@@ -231,8 +231,8 @@ export const APARTMENTS_DATA: Apartment[] = [
     ],
     imageUrls: [
       "https://lh3.googleusercontent.com/pw/AP1GczO3mWxabV7R97UPPvNWjUqBDluM180JdDE6HA9KLhlL6U8LQLdF87Otk8YfTWSRkOrir8eOhp8bBP9Xg4rLg3nZ2tIPJvBLMwgr2EFsEc-PdUue8WyN6dSOOy7vUWMTD5PIpyM4RxsJxVcjLqTfDU0L=w672-h951-s-no-gm?authuser=0",
-      'https://lh3.googleusercontent.com/pw/AP1GczMRZoGNr42f2HlpCbTGN2LoNBQd7mIiYXWSY11JPfvDRsGUr1Ywyz2sFFKaljfWzEfCqTrGgtKa76DyWDJ-lycvx5EA7_xz0sLGAENy3V83_xRtsglWso-MX165hT9q8MObd1-izBrHj2JzOD8DUeKB=w1264-h711-s-no-gm?authuser=1',
-      "https://lh3.googleusercontent.com/pw/AP1GczOAW4ghqAfT1GNcPl0z1cGKLVdv4ACeeyETuZ6nqTvxYbPToBwGPX2JqaAHQXvzBo7Fu-Nlkdvm3RLw6zo2qgf3i6jLy-t5zg02NF6MIbPpb6JbZXWc8yaseJD_sIGu8y9ccpRl_wzMmArgVe-XURiy=w1264-h711-s-no-gm?authuser=1"
+      "../assets/pietro.jpg",
+      "../assets/poddasze.jpg"
     ]
   },
   {
@@ -247,7 +247,7 @@ export const APARTMENTS_DATA: Apartment[] = [
     ],
     imageUrls: [
       "https://lh3.googleusercontent.com/pw/AP1GczPxLjYBXPg37yO-JV8flP9m4sxKYp0HO8x-s3CleaR0Dthp7fugrzY8qK03bcQIKmOA7-_F3tBPrCfZC_eZCX5BujoJvtTqlqXMLfN-sCI4c07QOHVdV6Rx8dADBlfQqvSOMAcNv_qQdPk67o0rKb4=w672-h951-s-no-gm?authuser=0",
-      "https://lh3.googleusercontent.com/pw/AP1GczPeijU-ctRdnqB78ec68QMbD8PoZGdgvH1RJZD5vT-3seCFyqSgclnxsvITWSKoZ837aoFiq4p57XcZ3JVjza9ct3nGw1f20AQLhdnfLro73Oag9MjreZdywl6Xn_isAjbN3eSvhopDaznMpdyObhKC=w1264-h711-s-no-gm?authuser=1"
+      "../assets/parter.jpg"
     ]
   },
   {
@@ -262,8 +262,8 @@ export const APARTMENTS_DATA: Apartment[] = [
     ],
     imageUrls: [
       "https://lh3.googleusercontent.com/pw/AP1GczO7PlZImr5DAGLeNiVo7XE-5DC2KSHTZqh891pH4nGV5PCXvYfjJmKyqnkyw00v8f5tPpdoONn3anp8QMkWzMuarKA7QoO7anaPaMuaBGwD-Ea5I1OYi3UPEvhWga2m2vSTjc8-HnFfj7BtcKTfj3I=w672-h951-s-no-gm?authuser=0",
-      'https://lh3.googleusercontent.com/pw/AP1GczMRZoGNr42f2HlpCbTGN2LoNBQd7mIiYXWSY11JPfvDRsGUr1Ywyz2sFFKaljfWzEfCqTrGgtKa76DyWDJ-lycvx5EA7_xz0sLGAENy3V83_xRtsglWso-MX165hT9q8MObd1-izBrHj2JzOD8DUeKB=w1264-h711-s-no-gm?authuser=1',
-      "https://lh3.googleusercontent.com/pw/AP1GczOAW4ghqAfT1GNcPl0z1cGKLVdv4ACeeyETuZ6nqTvxYbPToBwGPX2JqaAHQXvzBo7Fu-Nlkdvm3RLw6zo2qgf3i6jLy-t5zg02NF6MIbPpb6JbZXWc8yaseJD_sIGu8y9ccpRl_wzMmArgVe-XURiy=w1264-h711-s-no-gm?authuser=1"  
+      "../assets/pietro.jpg",
+      "../assets/poddasze.jpg"  
     ]
   },
   {
@@ -278,7 +278,7 @@ export const APARTMENTS_DATA: Apartment[] = [
     ],
     imageUrls: [
       "https://lh3.googleusercontent.com/pw/AP1GczPK2jkPK4pzlI8H-ZchHt1Zbe_hE0WdEsf7XzsLkzbB22EvpWI59Lgoas6dHKbb6Xsh99sQz_1DUG6iosmBkOwttH4hxrN7t0Qi6ytnZfipN6g6k4m8DIOtiQxsj1rnRq_JVXdnFMjtFT7bpuFOv48=w672-h951-s-no-gm?authuser=0",
-      "https://lh3.googleusercontent.com/pw/AP1GczPeijU-ctRdnqB78ec68QMbD8PoZGdgvH1RJZD5vT-3seCFyqSgclnxsvITWSKoZ837aoFiq4p57XcZ3JVjza9ct3nGw1f20AQLhdnfLro73Oag9MjreZdywl6Xn_isAjbN3eSvhopDaznMpdyObhKC=w1264-h711-s-no-gm?authuser=1"
+      "../assets/parter.jpg"
     ]
   },
   {
@@ -293,8 +293,8 @@ export const APARTMENTS_DATA: Apartment[] = [
     ],
     imageUrls: [
       "https://lh3.googleusercontent.com/pw/AP1GczM2dg3TBLcTu-9RwTi-kPb_EPYajWm-ihif_Y-jF9vJIf6Hqe5cfmWSOAHYgrtTni4-GZExRXpp0nMAaYtRUwGzR5QD7PCfU0MCLNdiy0dncIri7g2GT63MUMme9zE90RaRlqgiG3Re2ts_-HyNdfQ=w672-h951-s-no-gm?authuser=0",
-      'https://lh3.googleusercontent.com/pw/AP1GczMRZoGNr42f2HlpCbTGN2LoNBQd7mIiYXWSY11JPfvDRsGUr1Ywyz2sFFKaljfWzEfCqTrGgtKa76DyWDJ-lycvx5EA7_xz0sLGAENy3V83_xRtsglWso-MX165hT9q8MObd1-izBrHj2JzOD8DUeKB=w1264-h711-s-no-gm?authuser=1',
-      "https://lh3.googleusercontent.com/pw/AP1GczOAW4ghqAfT1GNcPl0z1cGKLVdv4ACeeyETuZ6nqTvxYbPToBwGPX2JqaAHQXvzBo7Fu-Nlkdvm3RLw6zo2qgf3i6jLy-t5zg02NF6MIbPpb6JbZXWc8yaseJD_sIGu8y9ccpRl_wzMmArgVe-XURiy=w1264-h711-s-no-gm?authuser=1" 
+      "../assets/pietro.jpg",
+      "../assets/poddasze.jpg" 
     ]
   },
   {
@@ -309,7 +309,7 @@ export const APARTMENTS_DATA: Apartment[] = [
     ],
     imageUrls: [
       "https://lh3.googleusercontent.com/pw/AP1GczNDssWepB3MuTDgXZCnr3CM3akyCLPPypZovFB-b5Vr_hMz3W4aeUdMjR456IU-Cladx-uz8fO86vCArdZPv9niGbv8QJCMPH6_Iaca9CFSMZ-ygCD5gJ0MMYbIZGifNe0gazGvp76rwgBKTkfqcpc=w672-h951-s-no-gm?authuser=0",
-      "https://lh3.googleusercontent.com/pw/AP1GczPeijU-ctRdnqB78ec68QMbD8PoZGdgvH1RJZD5vT-3seCFyqSgclnxsvITWSKoZ837aoFiq4p57XcZ3JVjza9ct3nGw1f20AQLhdnfLro73Oag9MjreZdywl6Xn_isAjbN3eSvhopDaznMpdyObhKC=w1264-h711-s-no-gm?authuser=1"
+      "../assets/parter.jpg"
     ]
   }
 ]

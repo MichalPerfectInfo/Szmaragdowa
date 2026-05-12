@@ -93,7 +93,7 @@ export const StandardsSection: React.FC = () => (
     <div className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
         <div className="order-2 lg:order-1">
-           <img src="https://lh3.googleusercontent.com/pw/AP1GczOIMjJhVf-ZJ5iwV9TXexUAqS1nLCGM2QI84-qhb8PoGr7t4z80-Pk2WDryavkAgMee2gvHeO-GtV_YpqOkU44xS8y_8DtAELITbz3ks8eTzFjb1FG1sYQdq8g-wxLDAZoe6JLgKUKuhzQql7I4wBE=w958-h539-s-no-gm?authuser=0" alt="Osiedle" className="rounded-2xl shadow-lg" />
+           <img src="../assets/1.jpg" />
         </div>
         <div className="order-1 lg:order-2">
           <div className="w-12 h-1 bg-primary-600 mb-6 rounded-full"></div>
@@ -127,7 +127,7 @@ export const StandardsSection: React.FC = () => (
           </ul>
         </div>
         <div>
-           <img src="https://lh3.googleusercontent.com/pw/AP1GczPFdfY6aDz_LLcwjGbN9xDrGjLEU22U28SRPs8t4SJgH9Z-5bdavwvWibjfJ9K3HDIwmFRxpvXruE-n0CEeoU5VHYv4gv8sLPV6QBS-8mhBJXC_e4VMdTUGlowVJ8Kks0iaaKepE0gsyx_XzY5dAJs=w958-h539-s-no-gm?authuser=0" alt="Architektura" className="rounded-2xl shadow-lg" />
+           <img src="../assets/3.jpg" />
         </div>
       </div>
     </div>
@@ -136,7 +136,7 @@ export const StandardsSection: React.FC = () => (
     <div className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
         <div className="order-2 lg:order-1">
-           <img src="https://lh3.googleusercontent.com/pw/AP1GczPIlKVkC3fUAUIRe-op6L7ESWhgBr-0v2SY6fyUZUv8Xi5Si0vmXwL2-sDtz46ChbwQMq8msllr_3zPVRrCvPwCxTq5drRSFLH919-9PFp89_O8Bkt-kv58fGHW-dJi5NutBrELF5_bmShlz5e6-0E=w958-h539-s-no-gm?authuser=0" alt="Ogród" className="rounded-2xl shadow-lg" />
+           <img src="../assets/2.jpg" />
         </div>
         <div className="order-1 lg:order-2">
           <div className="w-12 h-1 bg-primary-600 mb-6 rounded-full"></div>
