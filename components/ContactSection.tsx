@@ -43,13 +43,35 @@ const handleSubmit = async (event: FormEvent<HTMLFormElement>) => {
   const form = event.currentTarget;
 
   try {
-    // Send form via EmailJS using the imported module
     await emailjs.sendForm(
       "service_yr06mln",
       "template_2jnjybp",
       form,
-      { publicKey: "nF9ENLBFiedvKYVlF" } // Correct format for public key in v4
+      { publicKey: "nF9ENLBFiedvKYVlF" }
     );
+
+    // Jeśli user nie wyraził zgody na cookies wcześniej - robimy to teraz
+    const existing = localStorage.getItem('cookie_consent');
+    if (!existing) {
+      localStorage.setItem('cookie_consent', JSON.stringify({
+        necessary: true,
+        analytics: true,
+        marketing: true,
+        timestamp: new Date().toISOString(),
+        source: 'contact_form'
+      }));
+      // Odpal GTM
+      const w = window as any;
+      if (!w._gtmLoaded) {
+        w._gtmLoaded = true;
+        w.dataLayer = w.dataLayer || [];
+        w.dataLayer.push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+        const s = document.createElement('script');
+        s.async = true;
+        s.src = 'https://www.googletagmanager.com/gtm.js?id=GTM-MKBF6J83';
+        document.head.appendChild(s);
+      }
+    }
 
     setFormStatus("success");
     form.reset();
