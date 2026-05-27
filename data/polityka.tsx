@@ -34,6 +34,9 @@ export const Polityka: React.FC = () => {
           <li>
             <strong>Logi serwera:</strong> Korzystanie ze strony wiąże się z przesyłaniem zapytań do serwera, na którym przechowywana jest strona. Logi obejmują m.in. Twój adres IP, datę i czas serwera, informacje o przeglądarce internetowej. Dane te nie są wykorzystywane do identyfikacji konkretnych osób, a jedynie do celów administracji serwerem.
           </li>
+          <li>
+            <strong>Analityka i marketing: </strong> Przetwarzamy dane dotyczące Twojej aktywności na stronie w celu optymalizacji serwisu oraz prowadzenia kampanii reklamowych. Podstawą prawną jest Twoja dobrowolna zgoda (Art. 6 ust. 1 lit. a RODO) wyrażona poprzez akceptację plików cookies lub polityki prywatności w formularzu na stronie.
+          </li>
         </ul>
       </div>
 
@@ -47,7 +50,7 @@ export const Polityka: React.FC = () => {
         </ul>
       </div>
 
-      <div>
+      {/* <div>
         <h4 className="font-bold text-gray-800 text-base mb-1 mt-6">4. POLITYKA PLIKÓW COOKIES</h4>
         <p>
           Serwis brylantowa-nieruchomosci.pl ogranicza wykorzystanie plików cookies wyłącznie do plików niezbędnych (technicznych), które są wymagane do prawidłowego wyświetlania i działania strony internetowej.
@@ -55,7 +58,7 @@ export const Polityka: React.FC = () => {
         <p className="mt-2">
           Strona nie stosuje plików cookies o charakterze analitycznym, śledzącym ani marketingowym.
         </p>
-      </div>
+      </div> */}
     </div>
   );
 };
