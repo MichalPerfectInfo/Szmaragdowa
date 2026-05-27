@@ -6,10 +6,12 @@ import { ApartmentList } from './components/ApartmentList';
 import { AdditionalInfo, ProcessSection } from './components/Process';
 import { AboutInvestor, ContactSection } from './components/ContactSection';
 import { Footer } from './components/Footer';
+import CookieConsent from './components/CookieConsent';
 
 const App: React.FC = () => {
   return (
     <div className="min-h-screen flex flex-col font-sans">
+      <CookieConsent gtmId="GTM-MKBF6J83" />
       <Navigation />
       <main className="flex-grow">
         <Hero />
