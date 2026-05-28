@@ -50,6 +50,9 @@ const handleSubmit = async (event: FormEvent<HTMLFormElement>) => {
       { publicKey: "nF9ENLBFiedvKYVlF" }
     );
 
+    const w = window as any;
+    w.dataLayer = w.dataLayer || [];
+
     // Jeśli user nie wyraził zgody na cookies wcześniej - robimy to teraz
     const existing = localStorage.getItem('cookie_consent');
     if (!existing) {
@@ -60,11 +63,8 @@ const handleSubmit = async (event: FormEvent<HTMLFormElement>) => {
         timestamp: new Date().toISOString(),
         source: 'contact_form'
       }));
-      // Odpal GTM
-      const w = window as any;
       if (!w._gtmLoaded) {
         w._gtmLoaded = true;
-        w.dataLayer = w.dataLayer || [];
         w.dataLayer.push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
         const s = document.createElement('script');
         s.async = true;
@@ -72,6 +72,8 @@ const handleSubmit = async (event: FormEvent<HTMLFormElement>) => {
         document.head.appendChild(s);
       }
     }
+
+    w.dataLayer.push({ event: 'form_submit' });
 
     setFormStatus("success");
     form.reset();
